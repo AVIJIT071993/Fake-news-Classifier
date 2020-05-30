@@ -3,7 +3,9 @@ The aim of the project to classify news as real or fake. We have 6335 rows of da
 
 Data scraping is done with the help of beautifulsoup and request. The data is scrapped from "inshorts". They are then feature engineered and feed into the model. In the output, news are classified as real or fake.
 
-Python Libraries Required:
+
+**Python Libraries Required:**
+
 1. pip install numpy
 2. pip install pandas
 3. pip install seaborn
@@ -12,10 +14,10 @@ Python Libraries Required:
 6. pip install urllib3
 7. pip install python-csv
 
+
 ## TfidfVectorizer:
 
 TFIDF, short for term frequency–inverse document frequency, is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus.[1] It is often used as a weighting factor in searches of information retrieval, text mining, and user modeling. The tf–idf value increases proportionally to the number of times a word appears in the document and is offset by the number of documents in the corpus that contain the word, which helps to adjust for the fact that some words appear more frequently in general.
-
 
 
 
@@ -24,7 +26,9 @@ TFIDF, short for term frequency–inverse document frequency, is a numerical sta
 The number of times a word appears in a document divded by the total number of words in the document. Every document has its own term frequency.
 
 
+
 ![](image1.png)
+
 
 
 ## Inverse Data Frequency (IDF):
@@ -32,10 +36,19 @@ The number of times a word appears in a document divded by the total number of w
 The log of the number of documents divided by the number of documents that contain the word w. Inverse data frequency determines the weight of rare words across all documents in the corpus.
 
 
+
 ![](image2.png)
+
 
 
 The TF-IDF is simply the TF multiplied by IDF.
 
 
+
 ![](image3.png)
+
+
+
+## PassiveAggressiveClassifier:
+
+The passive-aggressive algorithms are a family of algorithms for large-scale learning. They are similar to the Perceptron in that they do not require a learning rate. However, contrary to the Perceptron, they include a regularization parameter C.
