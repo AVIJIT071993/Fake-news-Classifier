@@ -17,7 +17,10 @@ TFIDF, short for term frequency–inverse document frequency, is a numerical sta
 
 Term Frequency (TF)
 The number of times a word appears in a document divded by the total number of words in the document. Every document has its own term frequency.
-\begin{equation}i d f(w)=\log \left(\frac{N}{d f_{t}}\right)\end{equation}
+               /  N \ 
+i d f(w) = log |----| 
+               |d f | 
+               \   t/ 
 
 
 Inverse Data Frequency (IDF)
