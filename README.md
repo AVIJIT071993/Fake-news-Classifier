@@ -17,7 +17,8 @@ TFIDF, short for term frequency–inverse document frequency, is a numerical sta
 
 Term Frequency (TF)
 The number of times a word appears in a document divded by the total number of words in the document. Every document has its own term frequency.
-$i d f(w)=\log \left(\frac{N}{d f_{t}}\right)$
+\begin{equation}i d f(w)=\log \left(\frac{N}{d f_{t}}\right)\end{equation}
+
 
 Inverse Data Frequency (IDF)
 The log of the number of documents divided by the number of documents that contain the word w. Inverse data frequency determines the weight of rare words across all documents in the corpus.
