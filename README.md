@@ -27,7 +27,7 @@ The number of times a word appears in a document divded by the total number of w
 
 
 
-![](image1.png)
+![](images/image1.png)
 
 
 
@@ -37,7 +37,7 @@ The log of the number of documents divided by the number of documents that conta
 
 
 
-![](image2.png)
+![](images/image2.png)
 
 
 
@@ -45,7 +45,7 @@ The TF-IDF is simply the TF multiplied by IDF.
 
 
 
-![](image3.png)
+![](images/image3.png)
 
 
 
